@@ -1,0 +1,73 @@
+task_id,product,team,capability,surface,entity,contract,kpi_family,lever,goal,timeline_start,timeline_end
+D-1000,DriverApp,Driver Core,safety_fatigue,navigation_overlay,safety_event,contract:safety_alerts_feed,safety,+,снизить время подачи; улучшить safety через safety fatigue,2025-01-15,2025-02-22
+D-1001,DriverApp,Incentives,incentives,earnings_screen,bonus_scheme,contract:loyalty_promos_api,supply_time,+,повысить успешность сценариев; улучшить supply_time через incentives,2025-05-17,2025-07-15
+D-1002,DriverApp,Payments & Earnings,experiments_flags,settings_screen,experiment,contract:flags_sdk,completion,+,повысить возвращаемость; улучшить completion через experiments flags,2025-07-17,2025-08-17
+D-1003,DriverApp,Quality & Safety,earnings_insights,earnings_screen,driver,,satisfaction,+,снизить время подачи; улучшить satisfaction через earnings insights,2025-05-16,2025-07-02
+D-1004,DriverApp,Driver Core,incentives,orders_feed,bonus_scheme,contract:loyalty_promos_api,supply_time,+,повысить доверие к маршруту и ETA; улучшить supply_time через incentives,2025-07-31,2025-09-03
+D-1005,DriverApp,Quality & Safety,safety_fatigue,car_display_overlay,driver,contract:safety_alerts_feed,safety,+,уменьшить стресс в поездке; улучшить safety через safety fatigue,2025-03-05,2025-05-03
+D-1006,DriverApp,Supply Growth,safety_fatigue,navigation_overlay,safety_event,contract:safety_alerts_feed,safety,+,ускорить оформление заказа; улучшить safety через safety fatigue,2025-04-25,2025-06-16
+D-1007,DriverApp,Driver Core,onboarding_drivers,settings_screen,driver,contract:flags_sdk,acceptance,+,ускорить оформление заказа; улучшить acceptance через onboarding drivers,2025-01-27,2025-03-03
+D-1008,DriverApp,Driver Core,dispatch_fairness,orders_feed,dispatch_policy,contract:dispatch_fairness_v2,satisfaction,+,снизить когнитивную нагрузку; улучшить satisfaction через dispatch fairness,2025-05-11,2025-06-29
+D-1009,DriverApp,Payments & Earnings,incentives,earnings_screen,driver,contract:loyalty_promos_api,supply_time,+,ускорить оформление заказа; улучшить supply_time через incentives,2025-06-12,2025-07-23
+D-1010,DriverApp,Driver Core,incentives,orders_feed,bonus_scheme,contract:loyalty_promos_api,supply_time,+,улучшить прозрачность правил; улучшить supply_time через incentives,2025-02-18,2025-04-06
+D-1011,DriverApp,Payments & Earnings,support_disputes,settings_screen,help_ticket,,satisfaction,+,снизить когнитивную нагрузку; улучшить satisfaction через support disputes,2025-01-20,2025-03-16
+D-1012,DriverApp,Support UX,support_disputes,settings_screen,order,,satisfaction,+,ускорить оформление заказа; улучшить satisfaction через support disputes,2025-08-01,2025-09-02
+D-1013,DriverApp,Payments & Earnings,experiments_flags,settings_screen,experiment,contract:flags_sdk,completion,+,повысить успешность сценариев; улучшить completion через experiments flags,2025-04-20,2025-05-21
+D-1014,DriverApp,Payments & Earnings,experiments_flags,settings_screen,experiment,contract:flags_sdk,completion,+,повысить доверие к маршруту и ETA; улучшить completion через experiments flags,2025-03-17,2025-04-24
+D-1015,DriverApp,Supply Growth,dispatch_fairness,orders_feed,dispatch_policy,contract:dispatch_fairness_v2,satisfaction,+,повысить успешность сценариев; улучшить satisfaction через dispatch fairness,2025-06-06,2025-07-10
+D-1016,DriverApp,Incentives,experiments_flags,settings_screen,experiment,contract:flags_sdk,completion,+,снизить когнитивную нагрузку; улучшить completion через experiments flags,2025-07-27,2025-09-05
+D-1017,DriverApp,Driver Core,experiments_flags,settings_screen,experiment,contract:flags_sdk,completion,+,уменьшить стресс в поездке; улучшить completion через experiments flags,2025-07-06,2025-08-27
+D-1018,DriverApp,Driver Core,incentives,earnings_screen,driver,contract:loyalty_promos_api,supply_time,+,улучшить прозрачность правил; улучшить supply_time через incentives,2025-04-22,2025-06-17
+D-1019,DriverApp,Payments & Earnings,incentives,orders_feed,driver,contract:loyalty_promos_api,supply_time,+,повысить качество точек входа; улучшить supply_time через incentives,2025-02-27,2025-04-11
+P-1020,PassengerApp,Checkout & Payments,search_destination,search_field,poi,contract:poi_quality_feed,conversion,+,уменьшить стресс в поездке; улучшить conversion через search destination,2025-07-10,2025-08-14
+P-1021,PassengerApp,Safety & Support,pickup_experience,map_screen,pickup_zone,contract:pickup_zones,pickup_time,-,ускорить оформление заказа; улучшить pickup_time через pickup experience,2025-09-04,2025-10-09
+P-1022,PassengerApp,Loyalty,ratings_feedback,post_ride_feedback,rider,,satisfaction,+,повысить возвращаемость; улучшить satisfaction через ratings feedback,2025-06-27,2025-08-22
+P-1023,PassengerApp,Checkout & Payments,safety_toolkit,tracking_screen,rider,,safety,+,повысить успешность сценариев; улучшить safety через safety toolkit,2025-01-11,2025-02-21
+P-1024,PassengerApp,Checkout & Payments,in_trip_assistance,tracking_screen,route,contract:eta_api,satisfaction,+,повысить качество точек входа; улучшить satisfaction через in trip assistance,2025-08-13,2025-10-01
+P-1025,PassengerApp,Search & Discovery,search_destination,map_screen,poi,contract:poi_quality_feed,conversion,+,снизить когнитивную нагрузку; улучшить conversion через search destination,2025-07-17,2025-08-23
+P-1026,PassengerApp,Loyalty,in_trip_assistance,tracking_screen,order,contract:eta_api,satisfaction,+,повысить возвращаемость; улучшить satisfaction через in trip assistance,2025-08-29,2025-10-05
+P-1027,PassengerApp,Safety & Support,user_onboarding,home_search,session,,activation,+,улучшить прозрачность правил; улучшить activation через user onboarding,2025-02-28,2025-03-30
+P-1028,PassengerApp,Checkout & Payments,promos_loyalty,checkout_screen,bonus_scheme,contract:loyalty_promos_api,conversion,+,повысить успешность сценариев; улучшить conversion через promos loyalty,2025-04-25,2025-06-08
+P-1029,PassengerApp,Rider Growth,search_destination,map_screen,poi,contract:poi_quality_feed,conversion,+,повысить доверие к маршруту и ETA; улучшить conversion через search destination,2025-05-24,2025-06-26
+P-1030,PassengerApp,Rider Growth,pickup_experience,map_screen,pickup_zone,contract:pickup_zones,pickup_time,-,повысить качество точек входа; улучшить pickup_time через pickup experience,2025-03-25,2025-05-16
+P-1031,PassengerApp,Checkout & Payments,surge_transparency,search_field,pricing_rule,,satisfaction,+,повысить качество точек входа; улучшить satisfaction через surge transparency,2025-01-12,2025-02-13
+P-1032,PassengerApp,Rider Growth,payments_checkout,checkout_screen,payment_method,contract:payment_sdk,conversion,+,улучшить прозрачность правил; улучшить conversion через payments checkout,2025-05-19,2025-07-13
+P-1033,PassengerApp,Search & Discovery,search_destination,map_screen,rider,contract:poi_quality_feed,conversion,+,повысить качество точек входа; улучшить conversion через search destination,2025-02-17,2025-03-29
+P-1034,PassengerApp,Checkout & Payments,promos_loyalty,checkout_screen,bonus_scheme,contract:loyalty_promos_api,conversion,+,повысить качество точек входа; улучшить conversion через promos loyalty,2025-04-17,2025-06-16
+P-1035,PassengerApp,Checkout & Payments,ratings_feedback,post_ride_feedback,order,,satisfaction,+,снизить отмены; улучшить satisfaction через ratings feedback,2025-01-31,2025-03-10
+P-1036,PassengerApp,Search & Discovery,user_onboarding,home_search,session,,activation,+,повысить доверие к маршруту и ETA; улучшить activation через user onboarding,2025-03-05,2025-04-30
+P-1037,PassengerApp,Safety & Support,promos_loyalty,checkout_screen,bonus_scheme,contract:loyalty_promos_api,conversion,+,снизить отмены; улучшить conversion через promos loyalty,2025-06-06,2025-07-06
+P-1038,PassengerApp,Safety & Support,subscription_plus,settings_screen,rider,contract:subscription_plus,retention,+,снизить время подачи; улучшить retention через subscription plus,2025-03-15,2025-04-23
+P-1039,PassengerApp,Checkout & Payments,promos_loyalty,home_search,bonus_scheme,contract:loyalty_promos_api,conversion,+,снизить время подачи; улучшить conversion через promos loyalty,2025-02-18,2025-04-02
+M-1040,Maps,Traffic & ETA,traffic_prediction,navigation_overlay,eta_model,contract:eta_api,quality,+,снизить отмены; улучшить quality через traffic prediction,2025-02-15,2025-03-18
+M-1041,Maps,Map UX,speed_limits,navigation_overlay,route,,safety,+,снизить время подачи; улучшить safety через speed limits,2025-05-31,2025-07-28
+M-1042,Maps,Routing,poi_quality,search_field,entrance_point,contract:entrance_points_api,quality,+,улучшить прозрачность правил; улучшить quality через poi quality,2025-07-28,2025-09-04
+M-1043,Maps,Traffic & ETA,entrance_points,pickup_area,poi,contract:entrance_points_api,pickup_time,-,снизить когнитивную нагрузку; улучшить pickup_time через entrance points,2025-05-02,2025-06-29
+M-1044,Maps,POI & Places,traffic_prediction,map_screen,eta_model,contract:eta_api,quality,+,снизить время подачи; улучшить quality через traffic prediction,2025-08-28,2025-10-20
+M-1045,Maps,Traffic & ETA,entrance_points,pickup_area,poi,contract:entrance_points_api,pickup_time,-,повысить возвращаемость; улучшить pickup_time через entrance points,2025-05-28,2025-07-25
+M-1046,Maps,Traffic & ETA,pickup_zones,map_screen,pickup_point,contract:pickup_zones,pickup_time,-,снизить когнитивную нагрузку; улучшить pickup_time через pickup zones,2025-04-26,2025-06-23
+M-1047,Maps,Pickup Zones,poi_quality,search_field,poi,contract:entrance_points_api,quality,+,повысить возвращаемость; улучшить quality через poi quality,2025-07-27,2025-08-30
+M-1048,Maps,Pickup Zones,traffic_prediction,map_screen,eta_model,contract:eta_api,quality,+,улучшить прозрачность правил; улучшить quality через traffic prediction,2025-02-09,2025-03-18
+M-1049,Maps,Pickup Zones,entrance_points,map_screen,poi,contract:entrance_points_api,pickup_time,-,снизить когнитивную нагрузку; улучшить pickup_time через entrance points,2025-02-02,2025-03-20
+M-1050,Maps,Traffic & ETA,pickup_zones,map_screen,pickup_zone,contract:pickup_zones,pickup_time,-,уменьшить стресс в поездке; улучшить pickup_time через pickup zones,2025-07-11,2025-08-20
+M-1051,Maps,Routing,routing_multiobjective,lane_guidance,route,contract:maps_routing_api,quality,+,снизить когнитивную нагрузку; улучшить quality через routing multiobjective,2025-05-04,2025-06-21
+M-1052,Maps,Routing,traffic_prediction,navigation_overlay,eta_model,contract:eta_api,quality,+,повысить успешность сценариев; улучшить quality через traffic prediction,2025-01-10,2025-02-27
+M-1053,Maps,POI & Places,speed_limits,navigation_overlay,route,,safety,+,повысить доверие к маршруту и ETA; улучшить safety через speed limits,2025-08-10,2025-09-18
+M-1054,Maps,Map UX,routing_multiobjective,navigation_overlay,eta_model,contract:maps_routing_api,quality,+,улучшить прозрачность правил; улучшить quality через routing multiobjective,2025-09-03,2025-10-23
+M-1055,Maps,POI & Places,poi_quality,map_screen,poi,contract:entrance_points_api,quality,+,повысить качество точек входа; улучшить quality через poi quality,2025-02-08,2025-04-09
+A-1056,Alice,Yandex Alice,voice_safety_alerts,car_display_overlay,voice_alert,contract:safety_alerts_feed,safety,+,ускорить оформление заказа; улучшить safety через voice safety alerts,2025-01-02,2025-02-03
+A-1057,Alice,Yandex Alice,in_car_mode,voice_result,session,,satisfaction,+,ускорить оформление заказа; улучшить satisfaction через in car mode,2025-04-24,2025-06-03
+A-1058,Alice,Yandex Alice,latency_voice,voice_result,session,contract:voice_hints_api,latency,-,повысить качество точек входа; улучшить latency через latency voice,2025-07-17,2025-09-04
+A-1059,Alice,Yandex Alice,voice_safety_alerts,voice_result,safety_event,contract:safety_alerts_feed,safety,+,снизить время подачи; улучшить safety через voice safety alerts,2025-05-30,2025-07-29
+A-1060,Alice,Yandex Alice,voice_safety_alerts,voice_result,safety_event,contract:safety_alerts_feed,safety,+,ускорить оформление заказа; улучшить safety через voice safety alerts,2025-07-10,2025-08-10
+A-1061,Alice,Yandex Alice,voice_onboarding,voice_result,rider,,satisfaction,+,снизить отмены; улучшить satisfaction через voice onboarding,2025-03-06,2025-04-17
+A-1062,Alice,Yandex Alice,asr_nlu_quality,voice_invoke,session,,quality,+,уменьшить стресс в поездке; улучшить quality через asr nlu quality,2025-01-09,2025-02-19
+A-1063,Alice,Yandex Alice,voice_safety_alerts,voice_result,voice_alert,contract:safety_alerts_feed,safety,+,снизить когнитивную нагрузку; улучшить safety через voice safety alerts,2025-05-20,2025-07-05
+A-1064,Alice,Yandex Alice,voice_onboarding,voice_invoke,session,,satisfaction,+,ускорить оформление заказа; улучшить satisfaction через voice onboarding,2025-04-26,2025-06-07
+A-1065,Alice,Yandex Alice,voice_hints,voice_result,rider,contract:voice_hints_api,completion,+,повысить качество точек входа; улучшить completion через voice hints,2025-05-07,2025-06-18
+A-1066,Alice,Yandex Alice,asr_nlu_quality,voice_result,session,,quality,+,повысить возвращаемость; улучшить quality через asr nlu quality,2025-02-23,2025-04-18
+A-1067,Alice,Yandex Alice,voice_safety_alerts,voice_result,safety_event,contract:safety_alerts_feed,safety,+,снизить время подачи; улучшить safety через voice safety alerts,2025-02-10,2025-03-25
+A-1068,Alice,Yandex Alice,latency_voice,voice_result,session,contract:voice_hints_api,latency,-,повысить качество точек входа; улучшить latency через latency voice,2025-06-09,2025-07-15
+A-1069,Alice,Yandex Alice,in_car_mode,voice_result,session,,satisfaction,+,снизить отмены; улучшить satisfaction через in car mode,2025-07-30,2025-09-03
+A-1070,Alice,Yandex Alice,voice_safety_alerts,car_display_overlay,safety_event,contract:safety_alerts_feed,safety,+,повысить успешность сценариев; улучшить safety через voice safety alerts,2025-09-01,2025-10-23
+A-1071,Alice,Yandex Alice,retention_mechanics,voice_result,driver,,retention,+,повысить успешность сценариев; улучшить retention через retention mechanics,2025-08-20,2025-10-06
